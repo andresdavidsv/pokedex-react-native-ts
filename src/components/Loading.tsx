@@ -5,7 +5,7 @@ export const Loading = () => {
   return (
     <View style={styles.activityContainer}>
       <ActivityIndicator size={50} color="grey" />
-      <Text>Cargando...</Text>
+      <Text>Loading...</Text>
     </View>
   );
 };
